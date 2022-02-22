@@ -7,18 +7,10 @@
   "engines": {
     "vscode": "^1.32.0"
   },
-  "activationEvents": [
-    "onCommand:extension.helloWorld"
-  ],
+	"activationEvents": [
+		"*"
+	],
   "main": "./extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "extension.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
   "scripts": {},
   "devDependencies": {
     "@types/vscode": "^1.32.0"
